@@ -1,9 +1,9 @@
-import HelloWorld from './components/HelloWorld';
+import CounterApp from './components/CounterApp';
 
 function App() {
   return (
     <div>
-      <HelloWorld myProp="XD prop!" />
+      <CounterApp value={20} />
     </div>
   );
 }
