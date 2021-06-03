@@ -15,6 +15,6 @@ describe('Pruebas en el componente AppRouter', () => {
 
     test('debe de mostrarse correctamente', () => {
         expect(wrapper).toMatchSnapshot();
-    })
+    });
 
 });
